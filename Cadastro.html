@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo ao meu site</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+     <div class="box">
+        <form action="">
+                  <h1>Crie sua Conta</h1>
+                  <div class="inputbox"><p>Nome Completo:</p>
+                  <input type="text" name="nome" placeholder="Digite seu Nome Completo..." id="nome" class="inputuser" required>
+                  <label for="nome" class="labelinput"></label>
+              </div>
+                 <div class="inputbox"><p>Email:</p>
+                  <input type="text" name="Email" placeholder="Digite seu email..." id="Email" class="inputuser" required>
+                  <label for="nome" class="labelinput"></label>
+              </div>
+                 <div class="inputbox"><p>Telefone:</p>
+                  <input type="Tel" name="Telefone" placeholder="Digite seu Numero..." id="Telefone" class="inputuser" required>
+                  <label for="nome" class="labelinput"></label>
+              </div>
+              <p>Sexo:</p>
+              <input type="radio" name="genero" id="Feminino" value="Feminino" required>
+              <label for="Feminino">Feminino</label>
+               <input type="radio" name="genero" id="Masculino" value="Masculino" required>
+              <label for="Feminino">Masculino</label>
+               <input type="radio" name="genero" id="Outro" value="Outro" required>
+              <label for="Feminino">Outro</label>
+                 <div class="inputbox">
+                 <label for="datanascimento"><p>Data de nascimento:</p></label>
+                  <input type="date" name="datanascimento" id="datanascimento" class="inputuser" required>
+              </div>
+              <div class="inputbox"><p>Cidade:</p>
+                  <input type="text" name="Cidade" id="Cidade" placeholder="Digite seu cep..." class="inputuser" required>
+                  <label for="Cidade" class="labelinput"></label>
+              </div>
+              <div class="inputbox"><p>Estado:</p>
+                  <input type="text" name="Estado" id="Estado" placeholder="Digite seu Estado..." class="inputuser" required>
+                  <label for="Estado" class="labelinput"></label>
+              </div>
+              <div class="inputbox"><p>Endereço:</p>
+                  <input type="text" name="Endereco" id="Endereco" placeholder="Digite seu Endereço..." class="inputuser" required>
+                  <label for="Endereco" class="labelinput"></label>
+              </div>
+              <a href="2fa.html"><p> Verificação de Duas Etapas</p></a>
+              <input type="submit" class="enviar" name="submit" id="submit" > 
+              <p class="Inscreva-se">tela provisória de erro <a href="404/index.html" id="inscrever-se">Erro</a></p>
+        </form>
+     </div>
+</body>
+</html>
